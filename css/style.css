@@ -43,6 +43,18 @@ img {
     border-radius: 5px;
     background-color: #E6E6E6;
 }
+@media screen and (max-width: 700px) {
+    #main {
+        /* margin: 0; */
+        min-width: 400px;
+    }
+    ul {
+        padding: 0 20px 0;
+    }
+    .footer-text {
+        text-align: center;
+    }
+}
 #img-caption {
     padding: 12px 0;
 }
@@ -54,19 +66,20 @@ img {
 }
 ul {
     max-width: 550px;
+    text-align: left;
 }
 li {
-    margin: 0 0 16px 0;
+    margin: 0 auto 16px auto;
 }
 li:last-child {
     margin-bottom: 0;
 }
 blockquote {
     max-width: 545px;
-    margin: 50px;
+    margin: 50px auto;
 }
 #headline {
-    margin: 50px;
+    margin: 50px auto;
 }
 .cite {
     display: block;
